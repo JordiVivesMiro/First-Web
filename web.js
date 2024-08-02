@@ -1,4 +1,4 @@
-const cubesJSON = await fetch("https://github.com/JordiVivesMiro/First-Web/blob/main/mainPage.json");
+const cubesJSON = await fetch("./mainPage.json");
 const cubesData = await cubesJSON.json();
  
 const cardFrame = document.getElementById("cardsFrame");
