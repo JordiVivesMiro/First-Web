@@ -1,0 +1,51 @@
+[
+    {
+        "name" : "3x3",
+        "methods" : [
+            "Beginer's",
+            "Fridrich",
+            "Roux",
+            "Petrus"
+        ],
+        "image" : "https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1"
+    },
+    {
+        "name" : "2x2",
+        "methods" : [
+            "Beginer's",
+            "PBL",
+            "CLL",
+            "2CLL"
+        ],
+        "image" : "https://kubekings.com/img/cms/tutorial-2x2/17-3.png"
+    },
+    {
+        "name" : "3x3",
+        "methods" : [
+            "Beginer's",
+            "Fridrich",
+            "Roux",
+            "Petrus"
+        ],
+        "image" : "https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1"
+    },
+    {
+        "name" : "3x3",
+        "methods" : [
+            "Beginer's",
+            "Fridrich",
+            "Roux",
+            "Petrus"
+        ],
+        "image" : "https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1"
+    },
+    {
+        "name" : "3x3",
+        "methods" : [
+            "Beginer's",
+            "Fridrich",
+            "Roux"
+        ],
+        "image" : "https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1"
+    }
+]

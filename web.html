@@ -4,74 +4,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rubik's world</title>
     <link rel="stylesheet" href="web.css">
+    <script type="module" src="web.js"></script>
 </head>
 <body>
     <div class="cHeader">
         <h2>Welcome to</h2>
         <h1>Rubik's World</h1>
     </div>
-    <div class="puzzles">
-        <div class="puzzleCard">
-            <div class="puzzleCardPhoto">
-                <img src="https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1" alt="3x3 cube">
-            </div>
-            <div class="puzzleCardText">
-                <h2>3x3</h2> 
-                <small>Methods:</small>
-                <p>Beguiner's method</p>
-                <p>Fridrich method</p>
-                <p>Roux method</p>
-            </div>
-        </div>
-        <div class="puzzleCard">
-            <div class="puzzleCardPhoto">
-                <img src="https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1" alt="3x3 cube">
-            </div>
-            <div class="puzzleCardText">
-                <h2>3x3</h2>
-                <small>Methods:</small>
-                <p>Beguiner's method</p>
-                <p>Fridrich method</p>
-                <p>Roux method</p>
-                
-            </div>
-        </div>
-        <div class="puzzleCard">
-            <div class="puzzleCardPhoto">
-                <img src="https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1" alt="3x3 cube">
-            </div>
-            <div class="puzzleCardText">
-                <h2>3x3</h2>
-                <small>Methods:</small>
-                <p>Beguiner's method</p>
-                <p>Fridrich method</p>
-                <p>Roux method</p>
-            </div>
-        </div>
-        <div class="puzzleCard">
-            <div class="puzzleCardPhoto">
-                <img src="https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1" alt="3x3 cube">
-            </div>
-            <div class="puzzleCardText">
-                <h2>3x3</h2>
-                <small>Methods:</small>
-                <p>Beguiner's method</p>
-                <p>Fridrich method</p>
-                <p>Roux method</p>
-            </div>
-        </div>
-        <div class="puzzleCard">
-            <div class="puzzleCardPhoto">
-                <img src="https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1" alt="3x3 cube">
-            </div>
-            <div class="puzzleCardText">
-                <h2>3x3</h2>
-                <small>Methods:</small>
-                <p>Beguiner's method</p>
-                <p>Fridrich method</p>
-                <p>Roux method</p>
-            </div>
-        </div>
+    <div class="puzzles" id="cardsFrame">
+        
     </div>
+    
+    <template id="puzzleCard">
+        <div class="puzzleCard">
+            <div class="puzzleCardPhoto">
+                <img src="" alt="">
+            </div>
+            <div class="puzzleCardText">
+                <h2></h2> 
+                <small>Methods:</small>
+            </div>
+        </div>
+    </template>
 </body>
 </html>
