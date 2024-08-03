@@ -1,6 +1,6 @@
 const cubesJSON = await fetch("./mainPage.json");
 const cubesData = await cubesJSON.json();
-  
+   
 const cardFrame = document.getElementById("cardsFrame");
 const cardTemplate = document.querySelector("#puzzleCard");
 cubesData.forEach(e => {
