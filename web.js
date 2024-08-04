@@ -1,7 +1,7 @@
 console.log("entro");
 const cubesJSON = await fetch("https://raw.githubusercontent.com/JordiVivesMiro/First-Web/main/mainPage.json?token=GHSAT0AAAAAACVP6H6WH45P45S4REEGWWFQZVPSBCQ");
 const cubesData = await cubesJSON.json();
-
+  
 const cardFrame = document.getElementById("cardsFrame");
 const cardTemplate = document.querySelector("#puzzleCard");
 cubesData.forEach(e => {
