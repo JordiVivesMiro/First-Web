@@ -20,14 +20,12 @@
         "image" : "https://kubekings.com/img/cms/tutorial-2x2/17-3.png"
     },
     {
-        "name" : "3x3",
+        "name" : "4x4",
         "methods" : [
             "Beginer's",
-            "Fridrich",
-            "Roux",
-            "Petrus"
+            "mathc pairing"
         ],
-        "image" : "https://i0.wp.com/marleando.com/wp-content/uploads/2022/11/cubo-de-rubik-3x3-clasico.png?fit=530%2C530&ssl=1"
+        "image" : "https://afede.com/18269-large_default/cubo-rubiks-race.jpg"
     },
     {
         "name" : "3x3",

@@ -1,0 +1,45 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.cHeader {
+    background: linear-gradient(to right, red, green,green, blue);
+    text-align: center;
+    padding: 10;
+    box-shadow: 0px 10px 10px rgb(65, 65, 65);
+}
+.cHeader h2 {
+    color: beige;
+    font-size: 1.7rem;
+    margin: 0;    
+}
+.cHeader h1 {
+    color: beige;
+    font-size: 2rem;
+    margin: 0;
+}
+.grid3Colums {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+}
+
+.leftStatic {
+    margin: 0;
+    padding: 30 25;
+    border-radius: 50;
+}
+.leftStatic button {
+    padding: 10;
+    border-width: 0px;
+    box-shadow: 10px 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 216, 0), blue);
+    color: beige;
+}
+.leftStatic button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(200, 0, 0), rgb(0, 150, 0), rgb(0,0,200));
+}
+.leftStatic button:active {
+    box-shadow: 5px 5px;
+}

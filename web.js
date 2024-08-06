@@ -1,5 +1,5 @@
 console.log("entro");
-const cubesJSON = await fetch("https://raw.githubusercontent.com/JordiVivesMiro/First-Web/main/mainPage.json?token=GHSAT0AAAAAACVP6H6WH45P45S4REEGWWFQZVPSBCQ");
+const cubesJSON = await fetch("./mainPage.json");
 const cubesData = await cubesJSON.json();
   
 const cardFrame = document.getElementById("cardsFrame");
@@ -11,9 +11,15 @@ cubesData.forEach(e => {
     e.methods.forEach(m => {
         const mthName = document.createElement('p');
         mthName.textContent = m;
+        mthName.addEventListener('click', () => {
+            const message = encodeURIComponent(m); // Encode the text for URL
+            window.location.href = `/algorithmsPage.html?message=${message}`;
+          });
         auxText.appendChild(mthName);
     })
     aux.querySelector('img').src = e.image;
     cardFrame.appendChild(aux)
 });
+
+
 
